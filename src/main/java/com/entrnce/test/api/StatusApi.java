@@ -14,11 +14,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@Tag(name = "StatusApi")
 @Slf4j
 @RestController
 @RequestMapping(value = "/api/status", produces = {MediaType.APPLICATION_JSON_VALUE})
-@RequiredArgsConstructor
 public class StatusApi {
 
     @Operation(summary = "Post a status")

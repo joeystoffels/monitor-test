@@ -1,13 +1,11 @@
 package com.entrnce.test.shared;
 
 import com.entrnce.test.api.StatusResource;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.ExchangeFilterFunctions;
 import org.springframework.web.reactive.function.client.WebClient;
 
-@Slf4j
 @Service
 class MonitorService implements Monitor {
 
